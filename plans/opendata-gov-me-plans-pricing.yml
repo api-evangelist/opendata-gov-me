@@ -1,0 +1,35 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+provider: Montenegro Open Data
+providerId: opendata-gov-me
+created: '2026-06-07'
+modified: '2026-06-07'
+reconciled: false
+tags:
+- Open Data
+- CKAN
+- Plans
+description: >-
+  Montenegro Open Data is a public open-data portal. Its catalog API is offered free of charge.
+notes: Free / open public data API. No commercial pricing.
+sources:
+- https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/apis.yml
+plans:
+- id: opendata-gov-me-open
+  name: Free / Open Data
+  type: free
+  description: Public open-data catalog API offered at no charge.
+  entries:
+  - label: Open API Access
+    name: open_api_access
+    type: free
+    metric: requests
+    limit: -1
+    timeFrame: usage
+    geo: global
+    unit: 1
+    price: '0.00'
+    userMultiplied: false
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

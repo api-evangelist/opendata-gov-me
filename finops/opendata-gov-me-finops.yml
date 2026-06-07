@@ -1,0 +1,28 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+provider: Montenegro Open Data
+providerId: opendata-gov-me
+created: '2026-06-07'
+modified: '2026-06-07'
+reconciled: false
+tags:
+- Open Data
+- CKAN
+- FinOps
+description: >-
+  FinOps profile for Montenegro Open Data. Public open-data portal; no usage-based billing.
+notes: No usage-based API billing; public open data.
+sources:
+- https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/apis.yml
+publisherName: Montenegro Open Data
+serviceCategory: Open Data
+billingModel:
+  pricingCategory: Free / Public
+  billingFrequency: None
+  billingCurrency: N/A
+principles:
+- name: Optimization
+  description: Harvest efficiently to reduce load.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

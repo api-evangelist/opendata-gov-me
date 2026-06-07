@@ -1,0 +1,18 @@
+name: Montenegro Open Data
+description: Montenegro Open Data CKAN open-data API live-verification for APIs.json cataloging.
+url: https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: >-
+      Montenegro Open Data runs CKAN and exposes a live, standardized open-data catalog API. The
+      endpoint was probed and returned a valid CKAN JSON response reporting approximately 894 datasets (CKAN version 2.11.0).
+    endpoints:
+      - url: https://opendata.gov.me/api/3/action/status_show
+        status: 200
+        note: Live CKAN API response verified.
+      - url: https://opendata.gov.me
+        status: 200
+        note: Portal home.
